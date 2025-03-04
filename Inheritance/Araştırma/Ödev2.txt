@@ -1,0 +1,29 @@
+1. Abstract Class (Soyut Sınıf) Nedir?
+
+Abstract classların kullanılma amacı, temel sınıfı tanımlamaktır.
+Hiyerarşik düzende en üst class’ın tanımlanması olarak yorumlayabilirsiniz.
+Yeni türetilecek olan classlar, abstract keyword’ü verilen class üzerinden türeyecektir.
+
+Abstract classların en önemli detaylarından biri new keyword’ü ile nesne türetemez.
+Türeyememe nedeni, base class olmasından kaynaklıdır.
+Nesne oluşturamıyoruz ama kalıtım özelliğini kullanabiliriz, kod tekrarını azaltmış oluruz.
+
+2. Abstraction (Soyutlama) Nedir?
+
+Abstraction (Soyutlama) detayları saklama ve sadece gösterilmesi istenen bilgileri kullanıcıya göstermek amacıyla kullanılır.
+Abstraction(Soyutlama) hem Abstract class(soyutlama sınıfları) ile hem de interfaces (arayüzler) ile yapılır.
+
+Abstract keyword sınıflar ve metotlar için kullanılır.
+
+Abstract Class : Abstract class’lardan instance object (örnek nesne) oluşturulamaz.
+Abstract class’a ulaşmak için başka bir sınıftan kalıtım alınması gerekir.
+
+Abstract Method : Sadece abstract class içerisinde kullanılır.
+Metot içerisine herhangi birşey yazılmaz.
+Bir abstract class hem abstract metotlara hem de normal metotlara sahip olabilir.
+Bu kısım önemli. Şimdi bir örnekle bunu gösterelim.
+
+3. Polymorphism (Çok Biçimlilik) Nedir?
+Bir temel sınıfın özellik ve metotlarını, temel sınıftan türetilen bir sınıfa aktardığımızda temel sınıfa ait metotları türemiş sınıf içerisinde de kullanabiliriz
+Ancak her iki sınıfta da aynı metot bulunduğunda temel sınıftaki metot kullanılacak, türemiş sınıftaki metot ise kullanılmayacaktır.
+Temel sınıfa ait metotları türemiş sınıfta farklı biçimlerde tanımlayarak kullanmak için override ve virtual niteleyicilerini kullanmak gereklidir.
